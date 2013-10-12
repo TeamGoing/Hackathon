@@ -28,6 +28,12 @@
                 document.getElementById("bigImage").style.backgroundImage = "url(" + source + ")";
                 document.getElementById("bigImage").style.pointerEvents = "all";
                 document.getElementById("darkenDiv").style.pointerEvents = "all";
+				document.getElementById("darkenDiv").style.position = "fixed";
+				document.getElementById("darkenDiv").style.width = "100%";
+				document.getElementById("darkenDiv").style.height = "100%";
+				document.getElementById("bigImage").style.position = "fixed";
+				document.getElementById("bigImage").style.width = "800px";
+				document.getElementById("bigImage").style.height = "600px";
             }
             
 			function closeLarge()
@@ -36,6 +42,12 @@
 				document.getElementById("bigImage").style.opacity = "0";
                 document.getElementById("bigImage").style.pointerEvents = "none";
                 document.getElementById("darkenDiv").style.pointerEvents = "none";
+				document.getElementById("darkenDiv").style.position = "relative";
+				document.getElementById("darkenDiv").style.width = "0px";
+				document.getElementById("darkenDiv").style.height = "0px";
+				document.getElementById("bigImage").style.position = "relative";
+				document.getElementById("bigImage").style.width = "0px";
+				document.getElementById("bigImage").style.height = "0px";
 			}
         </script>
         
@@ -58,6 +70,7 @@
                 width:700px;
                 background-color:white;
                 padding:40px;
+				min-height:1000px;
             }
             
             #sideBar {
@@ -71,7 +84,7 @@
             #splashBanner {
                 width:1080px;
                 height:150px;
-                background-image:url(images_new/splashBanner.jpg);
+                background-image:url(splashBanner.jpg);
                 border-bottom:#333 2px solid;
             }
             
@@ -220,11 +233,11 @@
             }
             
             #darkenDiv {
-                position:absolute;
+                position:relative;
                 top:0px;
                 left:0px;
-                width:100%;
-                height:100%;
+                width:0px;
+                height:0px;
                 background-color:black;
                 opacity:0;
                 pointer-events:none;
@@ -232,21 +245,27 @@
             }
             
             #bigImage {
-                position:absolute;
+                position:relative;
                 margin-left:-400px;
                 left:50%;
                 margin-top:-300px;
                 top:50%;
-                width:800px;
-                height:600px;
+                width:0px;
+                height:0px;
                 opacity:0;
                 border-radius:5px;
                 border:1px black solid;
-                background-image:url(images_new/gallery.jpg);
+                background-image:url(gallery.jpg);
                 background-size:cover;
                 pointer-events:none;
 				z-index:3;
+				
             }
+			
+			#welcomeMessage p {
+				font-size:1.1em;
+			}
+			
 
         </style>
     
@@ -263,33 +282,41 @@
             
             <div id="welcomeMessage">
 
-                <p>Take in the soaring Mountain View from above the ski lift; feel the cold air nipping at your cheeks; experience the rush of adrenalin as you carve the snow, gliding down the run. There's nothing quite like a day on the slopes. And if you're wondering where to go, just take a look below at the world's best places to ski. This list takes into account the breathtaking views, the variety of runs, and the amount of skiable acres. So, go on: Hop a plane, a bus or into your own car. The slopes are calling</p>
+                <p>Take in the soaring Mountain View from above the ski lift; feel the cold air nipping at your cheeks; experience the rush of adrenaline as you carve the snow, gliding down the run. There&apos;s nothing quite like a day on the slopes. And if you&apos;re wondering where to go, just take a look below at the world&apos;s best places to ski. This list takes into account the breathtaking views, the variety of runs, and the amount of skiable acres. So, go on: Hop a plane, a bus or into your own car. The slopes are calling</p>
         
-                <p>Vermont is home to some of the world’s best Mountains. Heavy snowfall and majestic mountains make Vermont’s ski resorts the perfect place for of all abilities. Vermont has a wide variety of terrain making these Mountain resorts an attractive destination for any skier or snowboarder. explore the endless number of possibilities that could be your next winter vacation.<br />
+                <p>Vermont is home to some of the world&apos;s best mountains. Heavy snowfall and majestic mountains make Vermont&apos;s ski resorts the perfect place for of all abilities. Vermont has a wide variety of terrain making these Mountain resorts an attractive destination for any skier or snowboarder. explore the endless number of possibilities that could be your next winter vacation.<br />
                 </p>	
                 
                 <table>
                     <tr>
-                        <td><img src="/images_new/gallery.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
-                        <td><img src="/images_new/gallery1.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
-                        <td><img src="/images_new/gallery2.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                        <td><img src="gallery.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                        <td><img src="gallery1.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                        <td><img src="gallery2.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
                     </tr>
                     <tr>
-                        <td><img src="/images_new/gallery3.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
-                        <td><img src="/images_new/gallery4.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
-                        <td><img src="/images_new/gallery5.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                        <td><img src="gallery3.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                        <td><img src="gallery4.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                        <td><img src="gallery5.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
                     </tr>
                     <tr>
-                        <td><img src="/images_new/gallery6.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
-                        <td><img src="/images_new/gallery7.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
-                        <td><img src="/images_new/gallery8.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                        <td><img src="gallery6.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                        <td><img src="gallery7.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                        <td><img src="gallery8.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
                     </tr>
                     <tr>
-                        <td><img src="/images_new/gallery9.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
-                        <td><img src="/images_new/gallery10.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
-                        <td><img src="/images_new/gallery11.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                        <td><img src="gallery9.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                        <td><img src="gallery10.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                        <td><img src="gallery11.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
                     </tr>
                 </table>
+				
+				<div id="darkenDiv" onclick="closeLarge()">
+            
+				</div>
+				<div id="bigImage">
+                
+				</div>
+				
             </div>
             
             <div id="sideBar">
@@ -333,11 +360,6 @@
             </div>
         </div>
         </div>
-        <div id="darkenDiv" onclick="closeLarge()">
-            
-      </div>
-            <div id="bigImage">
-                
-            </div>
+        
     </body>
 </html>
