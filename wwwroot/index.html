@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Explore Vermont | Your Connection To The Slopes Of Vermont</title>
+        
+        <link rel="stylesheet" href="calendarview.css">
+        
+        <script src="prototype.js"></script>
+        <script src="calendarview.js"></script>
+        <script>
+            function setupCalendars() {
+        
+                Calendar.setup(
+                {
+                    dateField: 'popupDateField',
+                    triggerElement: 'popupDateField'
+                })
+            }
+
+            Event.observe(window, 'load', function() { setupCalendars() })
+        </script>
+        
+        <script>
+            function thumbnailEnlarge(source)
+            {
+                document.getElementById("darkenDiv").style.opacity = ".9";
+                document.getElementById("bigImage").style.opacity = "1";
+                document.getElementById("bigImage").style.backgroundImage = "url(" + source + ")";
+                document.getElementById("bigImage").style.pointerEvents = "all";
+                document.getElementById("darkenDiv").style.pointerEvents = "all";
+            }
+            
+			function closeLarge()
+			{
+				document.getElementById("darkenDiv").style.opacity = "0";
+				document.getElementById("bigImage").style.opacity = "0";
+                document.getElementById("bigImage").style.pointerEvents = "none";
+                document.getElementById("darkenDiv").style.pointerEvents = "none";
+			}
+        </script>
+        
+        <style>
+            body {
+                font-family:cambria;
+                background-color:#336699;
+                margin:0;
+            }
+            
+            #resizedBody {
+                width:1080px;
+                height:100%;
+                background-color:white;
+                margin:0 auto;
+            }
+            
+            #welcomeMessage {
+                float:left;
+                width:700px;
+                background-color:white;
+                padding:40px;
+            }
+            
+            #sideBar {
+                float:left;
+                width:300px;  
+                background-color:white;
+                padding-bottom:20px;
+                padding-top:10px;
+            }
+            
+            #splashBanner {
+                width:1080px;
+                height:150px;
+                background-image:url(images_new/splashBanner.jpg);
+                border-bottom:#333 2px solid;
+            }
+            
+            h1 {
+                margin:0; 
+                padding-top:85px;
+                padding-left:10px;
+                font-size:1.8em;
+                font-weight:bold;
+                color:#EEE;
+                text-shadow:1px 1px 10px black;
+            }
+            
+            h2 {
+                margin:0; 
+                padding-left:10px;
+                font-size:1.2em;
+                color:#EEE;
+                text-shadow:1px 1px 10px black;
+            }
+            
+            #footer {
+                clear:both;  
+                padding:5px;
+                background-color:#DDD;
+                border-top:#333 1px solid;
+            }
+            
+            * {
+                font-family:cambria;    
+            }
+            
+            fieldset {
+                background-color:#DDD;
+                border:1px solid #CCC;
+                margin:0 auto;
+            }
+            
+            legend {
+                color:#333;
+                text-shadow:1px 1px 2px white;
+            }
+            
+            div.calendar {
+                max-width: 240px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            div.calendar table {
+                width: 100%;
+            }
+            
+            div.dateField {
+                width: 140px;
+                padding: 6px;
+                -webkit-border-radius: 6px;
+                -moz-border-radius: 6px;
+                color: #555;
+                background-color: #EEE;
+                border:1px solid #DDD;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                box-shadow:0px 0px 10px #DDD;
+            }
+            
+            div#popupDateField:hover {
+                background-color: #cde;
+                cursor: pointer;
+            }
+            
+            #calendarFieldset {
+                width:250px;   
+            }
+            fieldset p {
+                margin:10px;
+                color:#333;
+                font-size:0.9em;   
+            }
+            
+            #cityFieldset {
+                width:250px; 
+                margin-top:10px;
+            }
+            
+            select {
+                100px;
+                margin-left:75px;
+                margin-top:10px;
+            }
+            
+            #bodyWrapper {
+                width:1080px;
+                margin:0 auto;
+                box-shadow:0px 0px 10px black;
+            }
+            
+            a {
+                text-decoration:underline;
+                color:#333;
+                font-size:.9em;
+            }
+            
+            a:hover {
+                text-decoration:none;
+                color:black;
+            }
+            
+            a:active {
+                text-decoration:none;
+                color:black;
+            }
+            
+            a:visited {
+                color:#333;
+                text-decoration:underline;
+            }
+            
+            table {
+                background-color:#DDD;
+                padding:10px;
+                border-radius:10px;
+                margin:0 auto;
+                border:1px #CCC solid;
+                margin-top:100px;
+                box-shadow:0px 0px 10px #BBB;
+            }
+            
+            td {
+                padding:5px;   
+            }
+            
+            td img {
+                width:180px;
+                height:120px;
+                border:1px #CCC solid;
+                border-radius:5px;
+                box-shadow:0px 0px 10px #999;
+            }
+            
+            td img:hover {
+                border:1px solid #336699;  
+                cursor:pointer;
+                box-shadow:0px 0px 20px white;
+            }
+            
+            #darkenDiv {
+                position:absolute;
+                top:0px;
+                left:0px;
+                width:100%;
+                height:100%;
+                background-color:black;
+                opacity:0;
+                pointer-events:none;
+				z-index:2;
+            }
+            
+            #bigImage {
+                position:absolute;
+                margin-left:-400px;
+                left:50%;
+                margin-top:-300px;
+                top:50%;
+                width:800px;
+                height:600px;
+                opacity:0;
+                border-radius:5px;
+                border:1px black solid;
+                background-image:url(images_new/gallery.jpg);
+                background-size:cover;
+                pointer-events:none;
+				z-index:3;
+            }
+
+        </style>
+    
+    </head>
+    <body>
+        <div id="bodyWrapper">
+        <div id="resizedBody">
+            <header>
+                <div id="splashBanner">
+                    <h1>Explore Vermont</h1>
+                    <h2>Your Portal To The Slopes Of Vermont</h2>
+                </div>
+            </header>
+            
+            <div id="welcomeMessage">
+
+                <p>Take in the soaring Mountain View from above the ski lift; feel the cold air nipping at your cheeks; experience the rush of adrenalin as you carve the snow, gliding down the run. There's nothing quite like a day on the slopes. And if you're wondering where to go, just take a look below at the world's best places to ski. This list takes into account the breathtaking views, the variety of runs, and the amount of skiable acres. So, go on: Hop a plane, a bus or into your own car. The slopes are calling</p>
+        
+                <p>Vermont is home to some of the world’s best Mountains. Heavy snowfall and majestic mountains make Vermont’s ski resorts the perfect place for of all abilities. Vermont has a wide variety of terrain making these Mountain resorts an attractive destination for any skier or snowboarder. explore the endless number of possibilities that could be your next winter vacation.<br />
+                </p>	
+                
+                <table>
+                    <tr>
+                        <td><img src="/images_new/gallery.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                        <td><img src="/images_new/gallery1.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                        <td><img src="/images_new/gallery2.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                    </tr>
+                    <tr>
+                        <td><img src="/images_new/gallery3.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                        <td><img src="/images_new/gallery4.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                        <td><img src="/images_new/gallery5.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                    </tr>
+                    <tr>
+                        <td><img src="/images_new/gallery6.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                        <td><img src="/images_new/gallery7.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                        <td><img src="/images_new/gallery8.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                    </tr>
+                    <tr>
+                        <td><img src="/images_new/gallery9.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                        <td><img src="/images_new/gallery10.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                        <td><img src="/images_new/gallery11.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div id="sideBar">
+                <fieldset id="calendarFieldset">
+            <legend>Select A Date</legend>
+            <p >Selecting a date will also display the average percentage of open trails on that date in the past six years.</p>
+            <div id="popupDateField" class="dateField" style="margin-top: 50px">
+                Show Calendar
+            </div>
+            <div class="dateResultField" id="dateResultField" style="margin-bottom:20px;text-align:center;color:#333;font-size:0.9em;margin-top:10px;">
+                No Results Found
+            </div>
+        </fieldset>
+        
+        <fieldset id="cityFieldset">
+            <legend>Location</legend>
+            <p>Selecting a city will show the nearby slopes and statistics about them.</p>
+            <select>
+                <option value="Bolton">Bolton</option>
+                <option value="Bromley">Bromley</option>
+                <option value="Eastburke">Eastburke</option>
+                <option value="Jay">Jay</option>
+                <option value="Jeffersonville">Jeffersonville</option>
+                <option value="Killington">Killington</option>
+                <option value="Londonderry">Londonderry</option>
+                <option value="Ludlow">Ludlow</option>
+                <option value="Mad River">Mad River</option>
+                <option value="Mendon">Mendon</option>
+                <option value="Middleburg">Middleburg</option>
+                <option value="Mount Snow">Mount Snow</option>
+                <option value="Pomfret">Pomfret</option>
+                <option value="Stowe">Stowe</option>
+                <option value="Stratton">Stratton</option>
+                <option value="Warren">Warren</option>
+                
+            </select>
+        </fieldset>
+            </div>
+            <div id="footer">
+                Explore Vermont | Your Portal To The Slopes Of Vermont | HackVT 2013 - Team Going &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="about.html">About</a> | <a href="http://www.hackvt.com" target="_blank">HackVT</a>
+            </div>
+        </div>
+        </div>
+        <div id="darkenDiv" onclick="closeLarge()">
+            
+      </div>
+            <div id="bigImage">
+                
+            </div>
+    </body>
+</html>

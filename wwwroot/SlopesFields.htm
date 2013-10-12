@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Slopes</title>
+        
+        <link rel="stylesheet" href="calendarview.css">
+        
+        <style>
+            * {
+                font-family:cambria;    
+            }
+            
+            fieldset {
+                background-color:#EEE;
+                border:1px solid #DDD;
+            }
+            
+            legend {
+                color:#333;
+                text-shadow:1px 1px 2px white;
+            }
+            
+            div.calendar {
+                max-width: 240px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            div.calendar table {
+                width: 100%;
+            }
+            
+            div.dateField {
+                width: 140px;
+                padding: 6px;
+                -webkit-border-radius: 6px;
+                -moz-border-radius: 6px;
+                color: #555;
+                background-color: #EEE;
+                border:1px solid #DDD;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                box-shadow:0px 0px 10px #DDD;
+            }
+            
+            div#popupDateField:hover {
+                background-color: #cde;
+                cursor: pointer;
+            }
+            
+            #calendarFieldset {
+                width:250px;   
+            }
+            fieldset p {
+                margin:10px;
+                color:#333;
+                font-size:0.9em;   
+            }
+            
+            #cityFieldset {
+                width:250px;   
+            }
+            
+            select {
+                100px;
+                margin-left:75px;
+                margin-top:10px;
+            }
+        </style>
+        
+        <script src="prototype.js"></script>
+        <script src="calendarview.js"></script>
+        <script>
+            function setupCalendars() {
+        
+                Calendar.setup(
+                {
+                    dateField: 'popupDateField',
+                    triggerElement: 'popupDateField'
+                })
+            }
+
+            Event.observe(window, 'load', function() { setupCalendars() })
+        </script>
+        
+    </head>
+    <body>
+        <fieldset id="calendarFieldset">
+            <legend>Select A Date</legend>
+            <p >Selecting a date will also display the average percentage of open trails on that date in the past six years.</p>
+            <div id="popupDateField" class="dateField" style="margin-top: 50px">
+                Show Calendar
+            </div>
+            <div class="dateResultField" id="dateResultField" style="margin-bottom:20px;text-align:center;color:#333;font-size:0.9em;margin-top:10px;">
+                No Results Found
+            </div>
+        </fieldset>
+        
+        <fieldset id="cityFieldset">
+            <legend>Location</legend>
+            <p>Selecting a city will show the nearby slopes and statistics about them.</p>
+            <select>
+                <option value="Bolton">Bolton</option>
+                <option value="Bromley">Bromley</option>
+                <option value="Eastburke">Eastburke</option>
+                <option value="Jay">Jay</option>
+                <option value="Jeffersonville">Jeffersonville</option>
+                <option value="Killington">Killington</option>
+                <option value="Londonderry">Londonderry</option>
+                <option value="Ludlow">Ludlow</option>
+                <option value="Mad River">Mad River</option>
+                <option value="Mendon">Mendon</option>
+                <option value="Middleburg">Middleburg</option>
+                <option value="Mount Snow">Mount Snow</option>
+                <option value="Pomfret">Pomfret</option>
+                <option value="Stowe">Stowe</option>
+                <option value="Stratton">Stratton</option>
+                <option value="Warren">Warren</option>
+                
+            </select>
+        </fieldset>
+    </body>
+</html>
