@@ -1,19 +1,98 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<Trails xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Trail><Name>Bolton Valley</Name><NumberOfTrails>64</NumberOfTrails>  <Town>Bolton</Town></Trail>
-  <Trail><Name>Bromley Mountain Resort</Name><NumberOfTrails>45</NumberOfTrails><Town>Bromley</Town></Trail>
-  <Trail><Name>Burke Mountain</Name><NumberOfTrails>45</NumberOfTrails><Town>East Burke</Town></Trail>
-  <Trail><Name>Jay Peak</Name><NumberOfTrails>77</NumberOfTrails><Town>Jay</Town></Trail>
-  <Trail><Name>Killington</Name> <NumberOfTrails>140</NumberOfTrails><Town>Killington</Town></Trail>
-  <Trail><Name>Mad River Mountain</Name><NumberOfTrails>45</NumberOfTrails><Town>Mad River</Town></Trail>
-  <Trail><Name>Magic Mountain</Name><NumberOfTrails>40</NumberOfTrails><Town>Londonderry</Town></Trail>
-  <Trail><Name>Middlebury Snow Bowl</Name><NumberOfTrails>17</NumberOfTrails><Town>Middlebury</Town></Trail>
-  <Trail><Name>Mount Snow</Name><NumberOfTrails>80</NumberOfTrails><Town>Mount Snow</Town></Trail>
-  <Trail><Name>Okemo Mountain</Name><NumberOfTrails>119</NumberOfTrails><Town>Ludlow</Town></Trail>
-  <Trail><Name>Pico Mountain</Name><NumberOfTrails>50</NumberOfTrails><Town>Mendon</Town></Trail>
-  <Trail><Name>Smugglers Notch</Name><NumberOfTrails>78</NumberOfTrails><Town>Jeffersonville</Town></Trail>
-  <Trail><Name>Stowe Mountain</Name><NumberOfTrails>116</NumberOfTrails><Town>Stowe</Town></Trail>
-  <Trail><Name>Stratton Mountain Ski Resort</Name><NumberOfTrails>92</NumberOfTrails><Town>Stratton</Town></Trail>
-  <Trail><Name>Sugarbush</Name><NumberOfTrails>11</NumberOfTrails><Town>Warren</Town></Trail>
-  <Trail><Name>Suicide Six</Name><NumberOfTrails>23</NumberOfTrails><Town>Pomfret</Town></Trail>
-</Trails>
+﻿<TRAILS>
+<TRAIL>
+	<NAME>Bolton Valley</NAME>
+	<NUMBEROFTRAILS>64</NUMBEROFTRAILS>  
+	<TOWN>Bolton</TOWN>
+	<DISTANCE>4.4</DISTANCE>
+</TRAIL>
+<TRAIL>
+	<NAME>Bromley Mountain Resort</NAME>
+	<NUMBEROFTRAILS>45</NUMBEROFTRAILS>
+	<TOWN>Peru</TOWN>
+	<DISTANCE>2.3</DISTANCE>
+</TRAIL>
+<TRAIL>
+	<NAME>Burke Mountain</NAME>
+	<NUMBEROFTRAILS>45</NUMBEROFTRAILS>
+	<TOWN>East Burke</TOWN>
+	<DISTANCE>4.4</DISTANCE>
+</TRAIL>
+<TRAIL>
+	<NAME>Jay Peak</NAME>
+	<NUMBEROFTRAILS>77</NUMBEROFTRAILS>
+	<TOWN>Jay</TOWN>
+	<DISTANCE>6.7</DISTANCE>
+</TRAIL>
+<TRAIL>
+	<NAME>Killington</NAME> 
+	<NUMBEROFTRAILS>140</NUMBEROFTRAILS>
+	<TOWN>Killington</TOWN>
+	<DISTANCE>1.1</DISTANCE>
+</TRAIL>
+<TRAIL>
+	<NAME>Mad River Glen</NAME>
+	<NUMBEROFTRAILS>45</NUMBEROFTRAILS>
+	<TOWN>Waitsfield</TOWN>
+	<DISTANCE>5.9</DISTANCE>
+</TRAIL>
+<TRAIL>
+	<NAME>Magic Mountain</NAME>
+	<NUMBEROFTRAILS>40</NUMBEROFTRAILS>
+	<TOWN>Londonderry</TOWN>
+	<DISTANCE>2.8</DISTANCE>
+</TRAIL>
+<TRAIL>
+	<NAME>Middlebury Snow Bowl</NAME>
+	<NUMBEROFTRAILS>17</NUMBEROFTRAILS>
+	<TOWN>Middlebury</TOWN>
+	<DISTANCE>13.2</DISTANCE>
+</TRAIL>
+<TRAIL>
+	<NAME>Mount Snow</NAME>
+	<NUMBEROFTRAILS>80</NUMBEROFTRAILS>
+	<TOWN>West Dover</TOWN>
+	<DISTANCE>20.5</DISTANCE>
+</TRAIL>
+<TRAIL>
+	<NAME>Okemo Mountain</NAME>
+	<NUMBEROFTRAILS>119</NUMBEROFTRAILS>
+	<TOWN>Ludlow</TOWN>
+	<DISTANCE>1.1</DISTANCE>
+</TRAIL>
+<TRAIL>
+	<NAME>Pico Mountain</NAME>
+	<NUMBEROFTRAILS>50</NUMBEROFTRAILS>
+	<TOWN>Mendon</TOWN>
+	<DISTANCE>18.1</DISTANCE>
+</TRAIL>
+<TRAIL>
+	<NAME>Smugglers Notch</NAME>
+	<NUMBEROFTRAILS>78</NUMBEROFTRAILS>
+	<TOWN>Jeffersonville</TOWN>
+	<DISTANCE>5.3</DISTANCE>
+</TRAIL>
+<TRAIL>
+	<NAME>Stowe Mountain</NAME>
+	<NUMBEROFTRAILS>116</NUMBEROFTRAILS>
+	<TOWN>Stowe</TOWN>
+	<DISTANCE>6.6</DISTANCE>
+</TRAIL>
+<TRAIL>
+	<NAME>Stratton Mountain Ski Resort</NAME>
+	<NUMBEROFTRAILS>92</NUMBEROFTRAILS>
+	<TOWN>Winhall</TOWN>
+	<DISTANCE>6.5</DISTANCE>
+</TRAIL>
+<TRAIL>
+	<NAME>Sugarbush</NAME>
+	<NUMBEROFTRAILS>11</NUMBEROFTRAILS>
+	<TOWN>Warren</TOWN>
+	<DISTANCE>3.8</DISTANCE>
+</TRAIL>
+<TRAIL>
+	<NAME>Suicide Six</NAME>
+	<NUMBEROFTRAILS>23</NUMBEROFTRAILS>
+	<TOWN>Pomfret</TOWN>
+	<DISTANCE>3.4</DISTANCE>
+</TRAIL>
+</TRAILs>

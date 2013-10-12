@@ -49,8 +49,58 @@
 				document.getElementById("bigImage").style.width = "0px";
 				document.getElementById("bigImage").style.height = "0px";
 			}
+			
         </script>
         
+		<script>
+		
+			alert("here");
+			/*
+			if(window.XMLHttpRequest)
+			{
+				xmlhttp=new XMLHttpRequest();
+			}
+			else
+			{
+				xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			if (xmlhttp!=null)
+			  {
+			  xmlhttp.onreadystatechange=function()
+				{
+				if (xmlhttp.readyState==4 && xmlhttp.status==200)
+				  {
+				  xmlDoc=xmlhttp.responseXML;
+				  var txt="";
+				  var x=xmlDoc.getElementsByTagName("Trail");
+			var y = x[0].getElementsByTagName("Name")[0].childNodes[0].nodeValue;
+			alert(y);
+				  /*
+				  x=xmlDoc.getElementsByTagName("SuicideSix.xml");
+				  for (i=0;i<x.length;i++)
+					{
+					txt=txt + x[i].childNodes[0].nodeValue + "<br>";
+					}
+				  document.getElementById("myDiv").innerHTML=txt;
+					}
+				  }
+				  */.
+			 //mlhttp.open("GET","cd_catalog.xml",true/
+//	  xmlhttp.send();
+		// }
+			/*
+			xmlhttp.open("GET","SuicideSix.xml",true);
+			
+			xmlhttp.send();
+			alert("Here");
+			xmlDoc=xmlhttp.responseXML; 
+			
+			var x=xmlDoc.getElementsByTagName("Trail");
+			var y = x[0].getElementsByTagName("Name")[0].childNodes[0].nodeValue;
+			alert(y);
+				*/
+		</script>
+		
         <style>
             body {
                 font-family:cambria;
@@ -270,7 +320,7 @@
         </style>
     
     </head>
-    <body>
+    <body onload="loadXML()">
         <div id="bodyWrapper">
         <div id="resizedBody">
             <header>
