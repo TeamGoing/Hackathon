@@ -7,8 +7,8 @@ using Excel;
 using System.IO;
 using System.Text;
 using System.Data;
+using OfficeOpenXml;
 using System.Xml.Serialization;
-
 
 namespace ConsoleApplication1
 {
@@ -40,6 +40,18 @@ namespace ConsoleApplication1
             day = aDay;
             month = aMonth;
             year = aYear;
+        }
+    }
+
+    public struct DayMonth
+    {
+        public int day;
+        public Month month;
+
+        public DayMonth(int aDay, Month aMonth)
+        {
+            day = aDay;
+            month = aMonth;
         }
     }
 
@@ -79,10 +91,15 @@ namespace ConsoleApplication1
         const int NUM_YEARS = 3;
 
         public List<SlopeMonthData> mMonthData;
+        protected DayAverageHolder mDayAverageHolder;
+        protected List<DayMonth> mDayMonths;
+        
 
         public SlopeData()
         {
             mMonthData = new List<SlopeMonthData>();
+            mDayMonths = new List<DayMonth>();
+            mDayAverageHolder = new DayAverageHolder();
         }
 
         public void readXSLFile(string filePath)
@@ -126,7 +143,7 @@ namespace ConsoleApplication1
                         {
                             continue;
                         }
-
+                        checkForNewDay(currentDate);
                         currentMonthData = getSlopeMonthData(currentDate);
                         if (currentMonthData != null)
                         {
@@ -155,22 +172,40 @@ namespace ConsoleApplication1
 
                 excelReader.Close();
             }
+            addDaysToDayAverageHolder();
+        }
+
+        protected void checkForNewDay(Date date)
+        {
+            DayMonth temp = new DayMonth(date.day, date.month);
+            for (int index = 0; index < mDayMonths.Count; index++)
+            {
+                if (temp.day == mDayMonths[index].day && temp.month == mDayMonths[index].month)
+                    return;
+            }
+            mDayMonths.Add(temp);
+        }
+
+        protected void addDaysToDayAverageHolder()
+        {
+            for (int index = 0; index < mDayMonths.Count; index++)
+            {
+                mDayAverageHolder.addDay(mDayMonths[index].day, mDayMonths[index].month, getAveragePercentOpen(mDayMonths[index].month, mDayMonths[index].day));
+            }
         }
 
         public void writeXmlFile()
         {
-            for (int index = 0; index < mMonthData.Count; index++)
-            {
-                xmlSerilize(mMonthData[index]);
-            }
+            xmlSerilize(mDayAverageHolder);
         }
 
-        public static void xmlSerilize(SlopeMonthData monthData)
+        public static void xmlSerilize(DayAverageHolder dayAverageData)
         {
-            XmlSerializer ser = new XmlSerializer(typeof(SlopeMonthData));
-            TextWriter contactList = new StreamWriter(@"../" + monthData.monthYearString() + ".xml");
-            ser.Serialize(contactList, monthData);
+            XmlSerializer ser = new XmlSerializer(typeof(DayAverageHolder));
+            TextWriter contactList = new StreamWriter(@"../" + "AveragePercentOpen" + ".xml");
+            ser.Serialize(contactList, dayAverageData);
         }
+
 
         public double getAveragePercentOpen(Month month, int day)
         {

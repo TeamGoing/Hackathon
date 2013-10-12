@@ -6,16 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    public struct SlopeDayData
-    {
-        public  int day;
-        public double percentOpen;
-        public SlopeDayData(int aDay, double aPercentOpen)
-        {
-            day = aDay;
-            percentOpen = aPercentOpen;
-        }
-    };
+    
     public class SlopeMonthData
     {
         protected List<SlopeDayData> mSlopeDayDatas;
@@ -31,7 +22,7 @@ namespace ConsoleApplication1
 
         public void addData(int day, double percentOpen)
         {
-            mSlopeDayDatas.Add(new SlopeDayData(day, percentOpen));
+            mSlopeDayDatas.Add(new SlopeDayData(day, mMonth, percentOpen));
         }
 
         public int getYear()
