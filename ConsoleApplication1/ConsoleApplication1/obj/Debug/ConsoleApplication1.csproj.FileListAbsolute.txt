@@ -1,0 +1,11 @@
+C:\Users\Jake\Desktop\Hack VT\trunk\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Jake\Desktop\Hack VT\trunk\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Jake\Desktop\Hack VT\trunk\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Jake\Desktop\Hack VT\trunk\ConsoleApplication1\ConsoleApplication1\bin\Debug\EPPlus.dll
+C:\Users\Jake\Desktop\Hack VT\trunk\ConsoleApplication1\ConsoleApplication1\bin\Debug\Excel.dll
+C:\Users\Jake\Desktop\Hack VT\trunk\ConsoleApplication1\ConsoleApplication1\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Jake\Desktop\Hack VT\trunk\ConsoleApplication1\ConsoleApplication1\bin\Debug\EPPlus.xml
+C:\Users\Jake\Desktop\Hack VT\trunk\ConsoleApplication1\ConsoleApplication1\bin\Debug\Excel.pdb
+C:\Users\Jake\Desktop\Hack VT\trunk\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Jake\Desktop\Hack VT\trunk\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Jake\Desktop\Hack VT\trunk\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

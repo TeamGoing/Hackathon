@@ -1,840 +1,673 @@
 <?xml version="1.0" encoding="utf-8"?>
 <DayAverageHolder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <mDays>
-    <SlopeDayData>
-      <day>24</day>
+    <CopressedDayData>
+      <dayMonth>1124</dayMonth>
       <percentOpen>3.1971841078519305</percentOpen>
-      <month>NOVEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>25</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1125</dayMonth>
       <percentOpen>4.6078660204459538</percentOpen>
-      <month>NOVEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>26</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1126</dayMonth>
       <percentOpen>2.262208521136571</percentOpen>
-      <month>NOVEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>27</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1127</dayMonth>
       <percentOpen>5.7348146268691451</percentOpen>
-      <month>NOVEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>28</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1128</dayMonth>
       <percentOpen>6.0803268779757245</percentOpen>
-      <month>NOVEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>29</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1129</dayMonth>
       <percentOpen>6.3646366959642977</percentOpen>
-      <month>NOVEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>30</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1130</dayMonth>
       <percentOpen>2.6414100334488242</percentOpen>
-      <month>NOVEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>1</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1201</dayMonth>
       <percentOpen>1.9925492857110758</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>2</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1202</dayMonth>
       <percentOpen>7.9263771235604112</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>3</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1203</dayMonth>
       <percentOpen>2.813996777448732</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>4</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1204</dayMonth>
       <percentOpen>8.9940987748464529</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>5</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1205</dayMonth>
       <percentOpen>8.8298340039012047</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>6</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1206</dayMonth>
       <percentOpen>3.969526568572086</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>7</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1207</dayMonth>
       <percentOpen>9.6064098896089334</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>8</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1208</dayMonth>
       <percentOpen>6.00306277184347</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>9</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1209</dayMonth>
       <percentOpen>5.5599559807685495</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>10</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1210</dayMonth>
       <percentOpen>13.19535074137845</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>11</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1211</dayMonth>
       <percentOpen>15.151030540799965</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>12</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1212</dayMonth>
       <percentOpen>10.612605797696281</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>13</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1213</dayMonth>
       <percentOpen>16.32678587210356</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>14</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1214</dayMonth>
       <percentOpen>16.353096345367018</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>15</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1215</dayMonth>
       <percentOpen>11.102704216828668</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>16</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1216</dayMonth>
       <percentOpen>18.701664531601306</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>17</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1217</dayMonth>
       <percentOpen>19.941291303765411</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>18</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1218</dayMonth>
       <percentOpen>24.936459704557347</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>19</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1219</dayMonth>
       <percentOpen>17.54316316325313</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>20</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1220</dayMonth>
       <percentOpen>26.999414359758404</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>21</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1221</dayMonth>
       <percentOpen>30.736864809412662</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>22</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1222</dayMonth>
       <percentOpen>18.638625876976835</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>23</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1223</dayMonth>
       <percentOpen>34.386377170418804</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>24</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1224</dayMonth>
       <percentOpen>41.846479652788041</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>25</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1225</dayMonth>
       <percentOpen>26.60982164122429</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>26</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1226</dayMonth>
       <percentOpen>48.924794577496016</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>27</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1227</dayMonth>
       <percentOpen>51.227259102142831</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>28</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1228</dayMonth>
       <percentOpen>32.733642706244026</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>29</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1229</dayMonth>
       <percentOpen>64.484705786738331</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>30</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>1230</dayMonth>
       <percentOpen>68.998360711755367</percentOpen>
-      <month>DECEMBER</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>0</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0100</dayMonth>
       <percentOpen>70.0397501249525</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>1</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0101</dayMonth>
       <percentOpen>54.332433908322891</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>2</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0102</dayMonth>
       <percentOpen>57.456267008010819</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>3</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0103</dayMonth>
       <percentOpen>54.534099009650504</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>4</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0104</dayMonth>
       <percentOpen>43.746720434491465</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>5</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0105</dayMonth>
       <percentOpen>57.6772693501749</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>6</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0106</dayMonth>
       <percentOpen>59.92016777249264</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>7</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0107</dayMonth>
       <percentOpen>46.528315826667949</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>8</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0108</dayMonth>
       <percentOpen>57.545464255825607</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>9</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0109</dayMonth>
       <percentOpen>31.332320731230539</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>10</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0110</dayMonth>
       <percentOpen>62.541117372083228</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>11</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0111</dayMonth>
       <percentOpen>51.371768926842641</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>12</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0112</dayMonth>
       <percentOpen>34.802280451836239</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>13</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0113</dayMonth>
       <percentOpen>77.9464894866483</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>14</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0114</dayMonth>
       <percentOpen>53.291052944999173</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>15</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0115</dayMonth>
       <percentOpen>73.696578668020592</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>16</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0116</dayMonth>
       <percentOpen>69.887021863752992</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>17</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0117</dayMonth>
       <percentOpen>49.381272192200207</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>18</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0118</dayMonth>
       <percentOpen>72.439309328344009</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>19</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0119</dayMonth>
       <percentOpen>70.017477666952573</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>20</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0120</dayMonth>
       <percentOpen>50.586180482971457</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>21</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0121</dayMonth>
       <percentOpen>74.449273675127372</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>22</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0122</dayMonth>
       <percentOpen>78.630801460634885</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>23</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0123</dayMonth>
       <percentOpen>52.186316879291724</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>24</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0124</dayMonth>
       <percentOpen>77.313143948369017</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>25</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0125</dayMonth>
       <percentOpen>73.153080761752</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>26</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0126</dayMonth>
       <percentOpen>52.430471234460832</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>27</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0127</dayMonth>
       <percentOpen>73.897417691799546</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>28</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0128</dayMonth>
       <percentOpen>78.680365985526223</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>29</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0129</dayMonth>
       <percentOpen>78.326051142807614</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>30</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0130</dayMonth>
       <percentOpen>55.524690946200053</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>31</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0131</dayMonth>
       <percentOpen>75.71483707767068</percentOpen>
-      <month>JANUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>1</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0201</dayMonth>
       <percentOpen>71.485633826092808</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>2</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0202</dayMonth>
       <percentOpen>47.349238824520704</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>3</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0203</dayMonth>
       <percentOpen>73.879199252611258</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>4</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0204</dayMonth>
       <percentOpen>75.689819435039155</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>5</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0205</dayMonth>
       <percentOpen>49.947366340254462</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>6</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0206</dayMonth>
       <percentOpen>74.56997614792779</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>7</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0207</dayMonth>
       <percentOpen>73.699629968520767</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>8</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0208</dayMonth>
       <percentOpen>49.887371726920726</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>9</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0209</dayMonth>
       <percentOpen>76.115271969610063</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>10</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0210</dayMonth>
       <percentOpen>83.98298879166542</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>11</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0211</dayMonth>
       <percentOpen>60.51422648213628</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>12</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0212</dayMonth>
       <percentOpen>82.584996796537766</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>13</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0213</dayMonth>
       <percentOpen>82.3800938957615</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>14</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0214</dayMonth>
       <percentOpen>83.7656711064222</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>15</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0215</dayMonth>
       <percentOpen>59.003340721467346</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>16</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0216</dayMonth>
       <percentOpen>84.426887271864771</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>17</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0217</dayMonth>
       <percentOpen>87.42438845225449</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>18</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0218</dayMonth>
       <percentOpen>61.679377222308709</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>19</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0219</dayMonth>
       <percentOpen>84.219624551895848</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>20</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0220</dayMonth>
       <percentOpen>83.269211596980128</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>21</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0221</dayMonth>
       <percentOpen>59.146976918876312</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>22</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0222</dayMonth>
       <percentOpen>87.913346778618276</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>23</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0223</dayMonth>
       <percentOpen>88.979308935808987</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>24</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0224</dayMonth>
       <percentOpen>60.754600287124141</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>25</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0225</dayMonth>
       <percentOpen>89.760063668003752</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>26</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0226</dayMonth>
       <percentOpen>90.628395576829249</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>27</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0227</dayMonth>
       <percentOpen>61.510117295893529</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>28</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0228</dayMonth>
       <percentOpen>91.252658909503623</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>1</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0301</dayMonth>
       <percentOpen>62.037911752569165</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>29</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0229</dayMonth>
       <percentOpen>27.34139320667818</percentOpen>
-      <month>FEBUARY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>2</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0302</dayMonth>
       <percentOpen>92.035808540668583</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>3</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0303</dayMonth>
       <percentOpen>94.574653664974463</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>4</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0304</dayMonth>
       <percentOpen>94.876512845811234</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>5</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0305</dayMonth>
       <percentOpen>61.2377447164958</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>6</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0306</dayMonth>
       <percentOpen>90.243231910655027</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>7</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0307</dayMonth>
       <percentOpen>91.340835771089814</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>8</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0308</dayMonth>
       <percentOpen>60.126065287383589</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>9</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0309</dayMonth>
       <percentOpen>92.213321048753741</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>10</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0310</dayMonth>
       <percentOpen>92.508276939070228</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>11</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0311</dayMonth>
       <percentOpen>62.851594873277442</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>12</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0312</dayMonth>
       <percentOpen>84.203025159664534</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>13</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0313</dayMonth>
       <percentOpen>78.4973175300728</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>14</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0314</dayMonth>
       <percentOpen>51.089833779339415</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>15</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0315</dayMonth>
       <percentOpen>79.292842769018918</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>16</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0316</dayMonth>
       <percentOpen>78.933646716093051</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>17</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0317</dayMonth>
       <percentOpen>57.519758934329616</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>18</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0318</dayMonth>
       <percentOpen>80.402099132916234</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>19</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0319</dayMonth>
       <percentOpen>70.764517276207883</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>20</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0320</dayMonth>
       <percentOpen>58.0983066594515</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>21</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0321</dayMonth>
       <percentOpen>70.752824955917589</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>22</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0322</dayMonth>
       <percentOpen>67.057708884167468</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>23</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0323</dayMonth>
       <percentOpen>63.599015277358326</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>24</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0324</dayMonth>
       <percentOpen>62.156492538973026</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>25</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0325</dayMonth>
       <percentOpen>65.293248823844834</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>26</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0326</dayMonth>
       <percentOpen>61.2962731871728</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>27</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0327</dayMonth>
       <percentOpen>59.55221236314037</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>28</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0328</dayMonth>
       <percentOpen>57.980098474056568</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>29</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0329</dayMonth>
       <percentOpen>57.991877213506747</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>30</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0330</dayMonth>
       <percentOpen>56.939308579377972</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>31</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0331</dayMonth>
       <percentOpen>58.767329650135942</percentOpen>
-      <month>MARCH</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>1</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0401</dayMonth>
       <percentOpen>50.803143567996692</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>2</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0402</dayMonth>
       <percentOpen>50.876467434143059</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>3</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0403</dayMonth>
       <percentOpen>51.644361625442741</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>4</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0404</dayMonth>
       <percentOpen>21.882066806773253</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>5</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0405</dayMonth>
       <percentOpen>41.342858837221364</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>6</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0406</dayMonth>
       <percentOpen>46.300047399948973</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>7</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0407</dayMonth>
       <percentOpen>45.852778572513984</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>8</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0408</dayMonth>
       <percentOpen>35.6154465939258</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>9</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0409</dayMonth>
       <percentOpen>37.8010022164402</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>10</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0410</dayMonth>
       <percentOpen>39.234648874920488</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>11</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0411</dayMonth>
       <percentOpen>30.683109531394475</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>12</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0412</dayMonth>
       <percentOpen>24.851456500198911</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>13</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0413</dayMonth>
       <percentOpen>26.196658973825095</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>14</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0414</dayMonth>
       <percentOpen>26.579897861258939</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>15</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0415</dayMonth>
       <percentOpen>17.906956459428272</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>16</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0416</dayMonth>
       <percentOpen>19.495108157035368</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>17</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0417</dayMonth>
       <percentOpen>16.954277696562972</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>18</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0418</dayMonth>
       <percentOpen>10.929197460854008</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>19</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0419</dayMonth>
       <percentOpen>11.639986767498238</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>20</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0420</dayMonth>
       <percentOpen>10.543117277879938</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>21</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0421</dayMonth>
       <percentOpen>9.238624373923594</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>22</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0422</dayMonth>
       <percentOpen>4.2922810060711187</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>23</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0423</dayMonth>
       <percentOpen>4.5677941601618963</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>24</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0424</dayMonth>
       <percentOpen>4.0610002891008961</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>25</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0425</dayMonth>
       <percentOpen>2.5151777970511708</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>26</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0426</dayMonth>
       <percentOpen>2.4862677074298931</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>27</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0427</dayMonth>
       <percentOpen>2.5151777970511708</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>28</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0428</dayMonth>
       <percentOpen>1.2567215958369473</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>29</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0429</dayMonth>
       <percentOpen>1.0407632263660018</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>30</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0430</dayMonth>
       <percentOpen>1.503324660306447</percentOpen>
-      <month>APRIL</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>1</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0501</dayMonth>
       <percentOpen>1.1121711477305578</percentOpen>
-      <month>MAY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>2</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0502</dayMonth>
       <percentOpen>0</percentOpen>
-      <month>MAY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>3</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0503</dayMonth>
       <percentOpen>0</percentOpen>
-      <month>MAY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>4</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0504</dayMonth>
       <percentOpen>-0.33333333333333331</percentOpen>
-      <month>MAY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>5</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0505</dayMonth>
       <percentOpen>0</percentOpen>
-      <month>MAY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>6</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0506</dayMonth>
       <percentOpen>0</percentOpen>
-      <month>MAY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>7</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0507</dayMonth>
       <percentOpen>-0.27551315409077765</percentOpen>
-      <month>MAY</month>
-    </SlopeDayData>
-    <SlopeDayData>
-      <day>8</day>
+    </CopressedDayData>
+    <CopressedDayData>
+      <dayMonth>0508</dayMonth>
       <percentOpen>-0.27551315409077765</percentOpen>
-      <month>MAY</month>
-    </SlopeDayData>
+    </CopressedDayData>
   </mDays>
 </DayAverageHolder>
