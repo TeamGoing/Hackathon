@@ -3,77 +3,9 @@
     <head>
         <title>Explore Vermont | Your Connection To The Slopes Of Vermont</title>
         
-        <link rel="stylesheet" href="calendarview.css">
         
-        <script src="prototype.js"></script>
-        <script src="calendarview.js"></script>
-        <script>
-            function setupCalendars() {
-        
-                Calendar.setup(
-                {
-                    dateField: 'popupDateField',
-                    triggerElement: 'popupDateField'
-                })
-            }
-
-            Event.observe(window, 'load', function() { setupCalendars() })
-        </script>
-        
-        <script>
-            function thumbnailEnlarge(source)
-            {
-                document.getElementById("darkenDiv").style.opacity = ".9";
-                document.getElementById("bigImage").style.opacity = "1";
-                document.getElementById("bigImage").style.backgroundImage = "url(" + source + ")";
-                document.getElementById("bigImage").style.pointerEvents = "all";
-                document.getElementById("darkenDiv").style.pointerEvents = "all";
-				document.getElementById("darkenDiv").style.position = "fixed";
-				document.getElementById("darkenDiv").style.width = "100%";
-				document.getElementById("darkenDiv").style.height = "100%";
-				document.getElementById("bigImage").style.position = "fixed";
-				document.getElementById("bigImage").style.width = "800px";
-				document.getElementById("bigImage").style.height = "600px";
-            }
-            
-			function closeLarge()
-			{
-				document.getElementById("darkenDiv").style.opacity = "0";
-				document.getElementById("bigImage").style.opacity = "0";
-                document.getElementById("bigImage").style.pointerEvents = "none";
-                document.getElementById("darkenDiv").style.pointerEvents = "none";
-				document.getElementById("darkenDiv").style.position = "relative";
-				document.getElementById("darkenDiv").style.width = "0px";
-				document.getElementById("darkenDiv").style.height = "0px";
-				document.getElementById("bigImage").style.position = "relative";
-				document.getElementById("bigImage").style.width = "0px";
-				document.getElementById("bigImage").style.height = "0px";
-			}
-			
-        </script>
-        
-		<script src="TrailsJSON.js"></script>
-		<script src="DateJSON.js"></script>
 		
-		<script>
-			function InfoTrailDisplay(town)
-			{
-			
-				for( var i = 0; i <= 15; i++ )
-				{
-					if( JSONTrails.TRAILS.TRAIL[i].TOWN == town )
-					{
-						document.getElementById("trailInfoContainer").innerHTML = "<a href='" + JSONTrails.TRAILS.TRAIL[i].LINK + "' target='_blank'>" +JSONTrails.TRAILS.TRAIL[i].NAME + "</a><br /> Number of Trails: " + JSONTrails.TRAILS.TRAIL[i].NUMBEROFTRAILS + "<br />" + JSONTrails.TRAILS.TRAIL[i].DISTANCE + "mi from " + JSONTrails.TRAILS.TRAIL[i].TOWN + "<br /> Cost: " + JSONTrails.TRAILS.TRAIL[i].COST;
-					}
-				}
-			}
-			
-			
-		</script>
 		
-		<script>
-			
-		</script>
 		
         <style>
             body {
@@ -91,10 +23,10 @@
             
             #welcomeMessage {
                 float:left;
-                width:700px;
                 background-color:white;
                 padding:40px;
-				min-height:1000px;
+				min-height:450px;
+				width:700px;
             }
             
             #sideBar {
@@ -205,6 +137,7 @@
                 width:1080px;
                 margin:0 auto;
                 box-shadow:0px 0px 10px black;
+				background-color:white;
             }
             
             a {
@@ -313,84 +246,16 @@
             
             <div id="welcomeMessage">
 
-                <p>Take in the soaring Mountain View from above the ski lift; feel the cold air nipping at your cheeks; experience the rush of adrenaline as you carve the snow, gliding down the run. There&apos;s nothing quite like a day on the slopes. And if you&apos;re wondering where to go, just take a look below at the world&apos;s best places to ski. This list takes into account the breathtaking views, the variety of runs, and the amount of skiable acres. So, go on: Hop a plane, a bus or into your own car. The slopes are calling.</p>
-        
-                <p>Vermont is home to some of the world&apos;s best mountains. Heavy snowfall and majestic mountains make Vermont&apos;s ski resorts the perfect place for of all abilities. Vermont has a wide variety of terrain making these Mountain resorts an attractive destination for any skier or snowboarder. explore the endless number of possibilities that could be your next winter vacation.<br />
-                </p>	
-                
-                <table>
-                    <tr>
-                        <td><img src="gallery.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
-                        <td><img src="gallery1.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
-                        <td><img src="gallery2.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
-                    </tr>
-                    <tr>
-                        <td><img src="gallery3.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
-                        <td><img src="gallery4.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
-                        <td><img src="gallery5.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
-                    </tr>
-                    <tr>
-                        <td><img src="gallery6.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
-                        <td><img src="gallery7.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
-                        <td><img src="gallery8.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
-                    </tr>
-                    <tr>
-                        <td><img src="gallery9.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
-                        <td><img src="gallery10.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
-                        <td><img src="gallery11.jpg" onclick="thumbnailEnlarge(this.src)"/></td>
-                    </tr>
-                </table>
+                <a href="index.html">< Home </a>
+				<p>Just like you, the team behind Explore Vermont has a passion for the outdoors, especially for the slopes and wintery paradises of Vermont. We are so pleased to provide this wonderful service to everyone to share the enjoyment that skiing and snowboarding can bring into someone's life.</p>
+				<p>This web application was developed as part of the HackVT competition in 2013. Our team consisted of Robert Bethune, Matt Dean, Jake Ellenberg, and Samantha Ovitt. Our team studied at Champlain College and went to the competition as a student group.</p>
+				<img src="gallery4.jpg" width="260px" height="200px" style="margin-left:20px;border:1px #333 solid; border-radius:5px;margin-top:10px;"/>
 				
-				<div id="darkenDiv" onclick="closeLarge()">
-            
-				</div>
-				<div id="bigImage">
-                
-				</div>
 				
             </div>
-            
-            <div id="sideBar">
-                <fieldset id="calendarFieldset">
-            <legend>Select A Date</legend>
-            <p >Selecting a date will also display the average percentage of open trails on that date in the past six years.</p>
-            <div id="popupDateField" class="dateField" style="margin-top: 50px">
-                Show Calendar
-            </div>
-            
-			<div id="dateInfo" style="margin-bottom:20px;text-align:center;color:#333;font-size:0.9em;margin-top:10px;">
-			
+			<div id="sideBar">
+				<img style="margin-top:20px;border:1px #333 solid;border-radius:5px;" src="gallery.jpg" width="260px" height="200px" />
 			</div>
-        </fieldset>
-        
-        <fieldset id="cityFieldset">
-            <legend>Location</legend>
-            <p>Selecting a city will show the nearby slopes and statistics about them.</p>
-            <select onclick="InfoTrailDisplay(this.value)">
-                <option value="Bolton">Bolton</option>
-                <option value="Peru">Peru</option>
-                <option value="East Burke">East Burke</option>
-                <option value="Jay">Jay</option>
-                <option value="Jeffersonville">Jeffersonville</option>
-                <option value="Killington">Killington</option>
-                <option value="Londonderry">Londonderry</option>
-                <option value="Ludlow">Ludlow</option>
-                <option value="Waitsfield">Waitsfield</option>
-                <option value="Mendon">Mendon</option>
-                <option value="Middlebury">Middlebury</option>
-                <option value="West Dover">West Dover</option>
-                <option value="Pomfret">Pomfret</option>
-                <option value="Stowe">Stowe</option>
-                <option value="Winhall">Winhall</option>
-                <option value="Warren">Warren</option>
-                
-            </select>
-			
-			<div id="trailInfoContainer">
-			
-			</div>
-			
-        </fieldset>
             </div>
             <div id="footer">
                 Explore Vermont | Your Portal To The Slopes Of Vermont | HackVT 2013 - Team Going &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="about.html">About</a> | <a href="http://www.hackvt.com" target="_blank">HackVT</a>

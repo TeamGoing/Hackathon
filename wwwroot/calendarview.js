@@ -91,6 +91,7 @@ Calendar.handleMouseUpEvent = function(event)
   // Clicked on a day
   if (typeof el.navAction == 'undefined')
   {
+	
     if (calendar.currentDateElement) {
       Element.removeClassName(calendar.currentDateElement, 'selected')
       Element.addClassName(el, 'selected')
@@ -102,6 +103,37 @@ Calendar.handleMouseUpEvent = function(event)
     calendar.shouldClose = !el.hasClassName('otherDay')
     var isOtherMonth     = !calendar.shouldClose
     if (isOtherMonth) calendar.update(calendar.date)
+	
+	var dateString = (calendar.date.getMonth() + 1).toString();
+	if( calendar.date.getMonth() <= 9 )
+	{
+		dateString = "0" + dateString;
+	}
+	
+	if( calendar.date.getDate() <= 9 )
+	{
+		dateString = dateString + "0" + calendar.date.getDate();
+	}
+	else
+	{
+		dateString = dateString + calendar.date.getDate();
+	}
+	var isData = 0;
+	for( var i = 0; i <= 163; i++ )
+	{
+		
+		if( dateString == JSONDate.DayAverageHolder.mDays.CopressedDayData[i].dayMonth )
+		{
+			isData = 1;
+			var percent = JSONDate.DayAverageHolder.mDays.CopressedDayData[i].percentOpen;
+			document.getElementById("dateInfo").innerHTML = "On average, " + (Math.floor(percent*100)/100) + "% of all trails have been open on this date.";
+		}
+		if( isData == 0 )
+		{
+			document.getElementById("dateInfo").innerHTML = "No results found.";
+		}
+	}
+	
   }
 
   // Clicked on an action button
