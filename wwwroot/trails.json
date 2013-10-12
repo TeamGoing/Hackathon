@@ -1,0 +1,88 @@
+{
+  "Trails": {
+    "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "-xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "Trail": [
+      {
+        "Name": "Bolton Valley",
+        "NumberOfTrails": "64",
+        "Town": "Bolton"
+      },
+      {
+        "Name": "Bromley Mountain Resort",
+        "NumberOfTrails": "45",
+        "Town": "Bromley"
+      },
+      {
+        "Name": "Burke Mountain",
+        "NumberOfTrails": "45",
+        "Town": "East Burke"
+      },
+      {
+        "Name": "Jay Peak",
+        "NumberOfTrails": "77",
+        "Town": "Jay"
+      },
+      {
+        "Name": "Killington",
+        "NumberOfTrails": "140",
+        "Town": "Killington"
+      },
+      {
+        "Name": "Mad River Mountain",
+        "NumberOfTrails": "45",
+        "Town": "Mad River"
+      },
+      {
+        "Name": "Magic Mountain",
+        "NumberOfTrails": "40",
+        "Town": "Londonderry"
+      },
+      {
+        "Name": "Middlebury Snow Bowl",
+        "NumberOfTrails": "17",
+        "Town": "Middlebury"
+      },
+      {
+        "Name": "Mount Snow",
+        "NumberOfTrails": "80",
+        "Town": "Mount Snow"
+      },
+      {
+        "Name": "Okemo Mountain",
+        "NumberOfTrails": "119",
+        "Town": "Ludlow"
+      },
+      {
+        "Name": "Pico Mountain",
+        "NumberOfTrails": "50",
+        "Town": "Mendon"
+      },
+      {
+        "Name": "Smugglers Notch",
+        "NumberOfTrails": "78",
+        "Town": "Jeffersonville"
+      },
+      {
+        "Name": "Stowe Mountain",
+        "NumberOfTrails": "116",
+        "Town": "Stowe"
+      },
+      {
+        "Name": "Stratton Mountain Ski Resort",
+        "NumberOfTrails": "92",
+        "Town": "Stratton"
+      },
+      {
+        "Name": "Sugarbush",
+        "NumberOfTrails": "11",
+        "Town": "Warren"
+      },
+      {
+        "Name": "Suicide Six",
+        "NumberOfTrails": "23",
+        "Town": "Pomfret"
+      }
+    ]
+  }
+}
